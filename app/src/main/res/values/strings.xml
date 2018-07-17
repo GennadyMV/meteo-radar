@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Метео Радар</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-7479793863624228/1951419393</string> <!-- Идентификатор рекламного блока -->
+
+    <string name="action_help_text">Как начать</string>
+    <string name="map_color_text">Цвета на карте</string>
+
+    <string-array name="name_radar_array">
+        <item>UVK Минеральные Воды</item>
+        <item>UVK Сочи</item>
+        <item>UVK Краснодар</item>
+        <item>UVK Ставрополь</item>
+        <item>UVK Волгоград</item>
+        <item>UVK Оренбург</item>
+        <item>UVK Барабинск</item>
+        <item>UVK Ижевск</item>
+        <item>UVK Нижний Новгород</item>
+        <item>UVK Казань</item>
+        <item>UVK Внуково</item>
+        <item>UVK Профсоюзная</item>
+        <item>UVK Шереметьево</item>
+        <item>UVK Брянск</item>
+        <item>UVK Смоленск</item>
+        <item>UVK Валдай</item>
+        <item>UVK Кострома</item>
+        <item>UVK Вологда</item>
+        <item>UVK Архангельск</item>
+        <item>UVK Петрозаводск</item>
+        <item>UVK Элиста</item>
+        <item>UVK Киров</item>
+        <item>UVK Самара</item>
+        <item>UVK Уфа</item>
+        <item>UVK Владивосток</item>
+        <item>UVK Тамбов</item>
+        <item>UVK Великие Луки</item>
+    </string-array>
+
+    <string-array name="name_url_radar_array">
+        <item>UVKMinvody</item>
+        <item>UVKSochi</item>
+        <item>UVKKrasnodar</item>
+        <item>UVKStavropol</item>
+        <item>UVKVolgograd</item>
+        <item>UVKOrenburg</item>
+        <item>UVKBarabinsk</item>
+        <item>UVKIzhevsk</item>
+        <item>UVKNizhny</item>
+        <item>UVKKazan</item>
+        <item>UVKVnukovo</item>
+        <item>UVKProfsoyuz</item>
+        <item>UVKSherem</item>
+        <item>UVKBryansk</item>
+        <item>UVKSmolensk</item>
+        <item>UVKValday</item>
+        <item>UVKKostroma</item>
+        <item>UVKVologda</item>
+        <item>UVKArkhangelsk</item>
+        <item>UVKPetrozavodsk</item>
+        <item>UVKElista</item>
+        <item>UVKKirov</item>
+        <item>UVKSamara</item>
+        <item>UVKUfa</item>
+        <item>UVKVladivostok</item>
+        <item>UVKTambov</item>
+        <item>UVKVelikiyeLuki</item>
+    </string-array>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="msgError">Произошла ошибка при попытке загрузить радар, повторите попытку!</string>
+
+    <!-- fragment_how_start -->
+    <string name="how_start_text">Как начать пользоваться:</string>
+    <string name="number_one_text">Выберите радар из выпадающего списка слева. При выборе следует учесть
+        тот факт, что радар охватывает очень большую область видимости, а его название лишь означает
+        точку его нахождения.</string>
+    <string name="number_two_text">Проанализировать полученное изображение. За отображение на карте
+        природных явлений, связанных с облачностью и осадками отвечают свои цвета, расшифровку которых
+        вы можете посмотреть в пункте меню \"Цвета на карте\".</string>
+    <string name="number_three_text">Направление ветра и его скорость можно увидеть в левом верхнем углу
+        на карте. Скорость ветра \"v\" отображается в привычных метрах в секунду (м/с), там же можно
+        увидеть и азимут \"az\" - угол между направлением на север и направлением ветра, который
+        отсчитывается по часовой стрелке. Так же направление и силу ветра можно увидеть по черной линии
+        из центра карты. Чуть ниже можно увидеть дату и время получения снимка с радара. \n <b>Прошу обратить
+        внимание</b> на тот факт, что время получения снимка в UTC±00:00, т.н. Coordinated Universal Time —
+        Всемирное координированное время, поэтому прошу учесть этот момент и делать поправку с учетом
+        вашего часового пояса.</string>
+    <string name="warning3_text">\n<b>Внимание!</b>\n\n Задержка обновления радара свыше 20 минут возникает
+        не по вине автора данного приложения! На самих ДМРЛ могут происходить ремонтные работы, они просто
+        ломаются, может быть что угодно, ведь оборудованию которое там установлено уже очень много лет в основном.
+        Убедительная просьба не ставить низкие оценки по этой причине!</string>
+    <string name="warning1_text">Обратим ваше внимание на то, что данные с радаров обновляются на сервере,
+        в среднем, раз в 20 минут(если на радаре проходят технические работы то время обновления может увеличиться). </string>
+    <string name="warning2_text">\n<b>Внимание! Наша ответственность</b>\n\nРадиолокационная информация, представленная в приложении, не может быть
+        использована для планирования или проведения мероприятий, реализация которых связана с риском материальных потерь или
+        человеческих жертв.\n\nДля получения официальной информации следует обращаться в соответствующие структурные подразделения национальных метеослужб.\n\n</string>
+    <string name="from_text"><i>Данные берутся с http://meteorad.ru</i></string>
+
+    <!-- fragment_help_color -->
+    <string name="colors_on_map">Цвета на карте:</string>
+    <string name="about_color_on_map">За отображение на карте природных явлений, связанных с облачностью и осадками отвечают свои цвета.</string>
+    <string name="color_other_view_radar"> - обл., за пределами зоны обзора радаров</string>
+    <string name="rainfall_1"> - осадки слабые</string>
+    <string name="rainfall_2"> - осадки умеренные</string>
+    <string name="rainfall_3"> - осадки сильные</string>
+    <string name="shower_1"> - ливень слабый</string>
+    <string name="shower_2"> - ливень умеренный</string>
+    <string name="shower_3"> - ливень сильный</string>
+    <string name="thunderstorm_1"> - гроза с вероятностью разрядов 50-75%</string>
+    <string name="thunderstorm_2"> - гроза с вероятностью разрядов 75-90%</string>
+    <string name="thunderstorm_3"><![CDATA[ - гроза с вероятностью разрядов >90%]]></string>
+    <string name="hail_1"> - слабый град</string>
+    <string name="hail_2"> - средний град</string>
+    <string name="hail_3"> - сильный град</string>
+    <string name="shtorm_1"><![CDATA[ - шквал. усиление ветра > 15м/с]]></string>
+    <string name="shtorm_2"><![CDATA[ - шквал. усиление ветра > 20м/с]]></string>
+
+    <!-- activity home -->
+    <string name="choose_radar_text">Выберите радар:</string>
+
+    <!-- Менюха радара -->
+    <string name="menu_radar_text">Радар</string>
+    <string name="set_default_radar_text">Сделать по умолчанию</string>
+    <string name="refresh_radar_text">Обновить</string>
+    <string name="colors_on_map_title">Цвета на карте</string>
+    <string name="how_start_title">Как начать</string>
+
+</resources>

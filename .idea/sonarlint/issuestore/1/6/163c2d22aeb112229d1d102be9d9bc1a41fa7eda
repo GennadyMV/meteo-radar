@@ -1,0 +1,11 @@
+
+"squid:ClassVariableVisibilityCheck"ZMake isDrawerLocked a static final constant or non-public and provide accessors if needed.(‹§•Œ8æåæ¾Ê,
+jsquid:MaximumInheritanceDepth"<This class has 7 parents which is greater than 5 authorized.(ˆ´¶8æåæ¾Ê,
+rsquid:S1192"QDefine a constant instead of duplicating this literal "howStartFragment" 5 times.(ÜÄ£Øıÿÿÿÿ8æåæ¾Ê,
+fsquid:CallToDeprecatedMethod"9Remove this use of "setDrawerListener"; it is deprecated.(îÓ“ş8æåæ¾Ê,
+Ksquid:S1905"*Remove this unnecessary cast to "Toolbar".(ªü–ıÿÿÿÿ8æåæ¾Ê,
+squid:S2178"fCorrect this "&" to "&&" and extract the right operand to a variable if it should always be evaluated.(¤¯ğt8æåæ¾Ê,
+osquid:S1192"NDefine a constant instead of duplicating this literal "radarFragment" 5 times.(¡öãëüÿÿÿÿ8æåæ¾Ê,
+Psquid:S1905"/Remove this unnecessary cast to "DrawerLayout".(æ¦È´üÿÿÿÿ8æåæ¾Ê,
+nsquid:S1192"RDefine a constant instead of duplicating this literal "helpColorFragment" 3 times.(©•¿ÿ8æåæ¾Ê,
+jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ˆ´¶8æåæ¾Ê,

@@ -1,0 +1,35 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion '28.0.1'
+    defaultConfig {
+        applicationId 'com.mike26.meteoradar'
+        minSdkVersion 14
+        targetSdkVersion 27
+        versionName '2.0'
+        versionCode 20
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            debuggable true
+        }
+    }
+    productFlavors {
+    }
+}
+
+ext {
+    supportLib = '27.1.1'
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation "com.android.support:appcompat-v7:$supportLib"
+    implementation "com.google.android.gms:play-services:11.+"
+    implementation "com.squareup.picasso:picasso:2.5.2"
+}

@@ -1,0 +1,16 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Wind_Image width and height -->
+    <dimen name="width_wind_image">100dp</dimen>
+    <dimen name="height_wind_image">12dp</dimen>
+
+    <!-- Time_Create_Radar_Image width and height -->
+    <dimen name="width_time_image">100dp</dimen>
+    <dimen name="height_time_image">30dp</dimen>
+
+    <dimen name="drawer_size">200dp</dimen>
+    <dimen name="drawer_content_padding">0dp</dimen>
+</resources>

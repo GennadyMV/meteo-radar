@@ -1,0 +1,293 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_pattern">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Логотип -->
+            <ImageView
+                android:id="@+id/logo_helpcolor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <!-- Цвета на карте -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/colors_on_map"
+                    android:gravity="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+                <!-- Вступление -->
+                <TextView
+                    android:text="@string/about_color_on_map"
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp">
+                    <View
+                        android:background="#a0a0a4"
+                        android:layout_width="25dp"
+                        android:layout_height="20dp" />
+                    <TextView
+                        android:text="@string/color_other_view_radar"
+                        android:gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp">
+                    <View
+                        android:background="#46ff93"
+                        android:layout_width="25dp"
+                        android:layout_height="20dp" />
+                    <TextView
+                        android:text="@string/rainfall_1"
+                        android:gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp">
+                    <View
+                        android:background="#00c25a"
+                        android:layout_width="25dp"
+                        android:layout_height="20dp" />
+                    <TextView
+                        android:text="@string/rainfall_2"
+                        android:gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp">
+                    <View
+                        android:background="#009800"
+                        android:layout_width="25dp"
+                        android:layout_height="20dp" />
+                    <TextView
+                        android:text="@string/rainfall_3"
+                        android:gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp">
+                    <View
+                        android:background="#3e88ff"
+                        android:layout_width="25dp"
+                        android:layout_height="20dp" />
+                    <TextView
+                        android:text="@string/shower_1"
+                        android:gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp">
+                    <View
+                        android:background="#0138ff"
+                        android:layout_width="25dp"
+                        android:layout_height="20dp" />
+                    <TextView
+                        android:text="@string/shower_2"
+                        android:gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp">
+                    <View
+                        android:background="#000074"
+                        android:layout_width="25dp"
+                        android:layout_height="20dp" />
+                    <TextView
+                        android:text="@string/shower_3"
+                        android:gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="1dp">
+                        <View
+                            android:background="#ffaa7f"
+                            android:layout_width="25dp"
+                            android:layout_height="20dp" />
+                        <TextView
+                            android:text="@string/thunderstorm_1"
+                            android:gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp">
+                    <View
+                        android:background="#ff557f"
+                        android:layout_width="25dp"
+                        android:layout_height="20dp" />
+                    <TextView
+                        android:text="@string/thunderstorm_2"
+                        android:gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp">
+                    <View
+                        android:background="#ff0000"
+                        android:layout_width="25dp"
+                        android:layout_height="20dp" />
+                    <TextView
+                        android:text="@string/thunderstorm_3"
+                        android:gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp">
+                    <View
+                        android:background="#cc6600"
+                        android:layout_width="25dp"
+                        android:layout_height="20dp" />
+                    <TextView
+                        android:text="@string/hail_1"
+                        android:gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp">
+                    <View
+                        android:background="#884400"
+                        android:layout_width="25dp"
+                        android:layout_height="20dp" />
+                    <TextView
+                        android:text="@string/hail_2"
+                        android:gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp">
+                    <View
+                        android:background="#5f0000"
+                        android:layout_width="25dp"
+                        android:layout_height="20dp" />
+                    <TextView
+                        android:text="@string/hail_3"
+                        android:gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp">
+                    <View
+                        android:background="#ff55ff"
+                        android:layout_width="25dp"
+                        android:layout_height="20dp" />
+                    <TextView
+                        android:text="@string/shtorm_1"
+                        android:gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp">
+                    <View
+                        android:background="#c700c7"
+                        android:layout_width="25dp"
+                        android:layout_height="20dp" />
+                    <TextView
+                        android:text="@string/shtorm_2"
+                        android:gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+
+                <!-- Отказ от ответственности -->
+                <TextView
+                    android:text="@string/warning2_text"
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+         </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
