@@ -19,7 +19,6 @@
 
 **Лицензия**
 
-Alexey Lepskii | nobodypro.ru
 Copyright 2011-2018 Alexey Lepskii | nobodypro.ru
 
 This product includes software developed by The Apache Software Foundation (http://www.apache.org/).
