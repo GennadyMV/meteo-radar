@@ -1,3 +1,18 @@
+<p align="center">
+    <a href="https://sufler.pro" target="_blank">
+        <img src="https://raw.githubusercontent.com/alexeynobody/MeteoRadar/master/images/logo.png">
+    </a>
+    <h1 align="center">Метео Радар</h1>
+    <br>
+</p>
+
+<p>
+	<img width="200" src="https://raw.githubusercontent.com/alexeynobody/MeteoRadar/master/images/1.png">
+	<img width="200" src="https://raw.githubusercontent.com/alexeynobody/MeteoRadar/master/images/2.png">
+	<img width="200" src="https://raw.githubusercontent.com/alexeynobody/MeteoRadar/master/images/3.png">
+	<img width="200" src="https://raw.githubusercontent.com/alexeynobody/MeteoRadar/master/images/4.png">
+</p>
+
 **О приложении из Play Market**
 
 Хотите знать, что за погода будет в ближайшие пару часов? Для вас удобнее графическое представление данных о погоде, нежели текстовое? В конце концов вы хотите почувствовать себя синоптиком и лучше понимать погодные явления? Это приложение для вас!
