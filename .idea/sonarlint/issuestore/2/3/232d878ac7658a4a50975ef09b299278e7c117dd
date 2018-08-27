@@ -1,8 +1,0 @@
-
-Asquid:S19053"*Remove this unnecessary cast to "Toolbar".(•é¼
-@squid:S14817")Remove this unused "mAds" local variable.(Ý«žò
-‚squid:S2178>"fCorrect this "&" to "&&" and extract the right operand to a variable if it should always be evaluated.(÷ôÆÓýÿÿÿÿ
-V"squid:SwitchLastCaseIsDefaultCheck€""Add a default case to this switch.(øå´¡ÿÿÿÿÿ
-hsquid:S1301€"KReplace this "switch" statement by "if" statements to increase readability.(øå´¡ÿÿÿÿÿ
-jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(”ÇŠµúÿÿÿÿ
-Osquid:S18547"8Remove this useless assignment to local variable "mAds".(Ý«žò
